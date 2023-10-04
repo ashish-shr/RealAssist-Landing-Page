@@ -13,6 +13,9 @@
 
 html,
 body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  scroll-behavior: smooth;
   height: 100vh;
   width: 100%;
 }
@@ -30,10 +33,6 @@ header .logo h3 {
   color: var(--primary-text);
 }
 
-main {
-  margin: 0 10vw;
-}
-
 button {
   width: 10vw;
   padding: 10px 30px;
@@ -41,6 +40,12 @@ button {
   border-radius: 7px;
   background-color: var(--primary-button);
   color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+button:hover {
+  background-color: #4a86ff;
+  cursor: pointer;
 }
 
 input {
@@ -88,12 +93,6 @@ input {
 .left p {
   margin: 30px 0px 65px 0px;
   color: var(--paragraph);
-}
-
-.hero-form {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .who {
@@ -209,10 +208,16 @@ input {
 .form-container .right .form button {
   width: 10vw;
   padding: 15px 30px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-border);
   border-radius: 7px;
   background-color: var(--primary-button);
   color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.form-container .right .form button:hover {
+  background-color: #4a86ff;
+  cursor: pointer;
 }
 
 footer {
@@ -226,6 +231,14 @@ footer {
 }
 
 .para1 {
-  border-top: 1px solid black;
+  border-top: 1px solid #e1e1e1;
   padding-top: 30px;
+}
+
+/* styles for screens with a max width of 767px (smartphones) */
+@media (max-width: 767px) {
+}
+
+/* styles for screens with a width between 768px and 1023px (tablets) */
+@media (min-width: 768px) and (max-width: 1023px) {
 }
