@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-text: #090e24;
+  --primary-button: #1463ff;
+  --primary-border: #efebff;
+  --paragraph: #626e99;
+}
+
 html,
 body {
   height: 100vh;
@@ -19,16 +26,20 @@ header .logo {
   align-items: center;
 }
 
+header .logo h3 {
+  color: var(--primary-text);
+}
+
 main {
-  margin: 0 150px;
+  margin: 0 10vw;
 }
 
 button {
   width: 10vw;
   padding: 10px 30px;
-  border: 1px solid black;
+  border: transparent;
   border-radius: 7px;
-  background-color: #1463ff;
+  background-color: var(--primary-button);
   color: #fff;
 }
 
@@ -36,16 +47,23 @@ input {
   width: 475px;
   margin-right: 10px;
   padding: 10px 20px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-border);
   border-radius: 7px;
-  box-shadow: 1px 1px 7px #ccc;
+  box-shadow: 1px 1px 7px #f6f6f6;
 }
 
-.hero {
-  margin: 125px 0 60px;
+.page1 {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.hero {
+  margin: 125px 0 75px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .left h3 {
@@ -54,6 +72,7 @@ input {
   text-align: center;
   background-color: #fcdc5c;
   border-radius: 10px;
+  color: #313131;
 }
 
 .left h2 {
@@ -61,12 +80,14 @@ input {
 }
 
 .left h1 {
-  margin-top: 15px;
+  margin-top: 20px;
   font-size: 3em;
+  color: #3f3f3f;
 }
 
 .left p {
-  margin: 20px 0px 70px 0px;
+  margin: 30px 0px 65px 0px;
+  color: var(--paragraph);
 }
 
 .hero-form {
@@ -75,8 +96,15 @@ input {
   justify-content: center;
 }
 
+.who {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .who-content h2 {
   margin-bottom: 25px;
+  color: var(--primary-text);
 }
 
 .cards {
@@ -89,7 +117,8 @@ input {
   padding: 40px 20px;
   height: 345px;
   width: 260px;
-  border: 1px solid black;
+  border: 1px solid #f1f1f1;
+  box-shadow: 1px 1px 5px 3px #f6f6f6;
   border-radius: 10px;
   margin-right: 10px;
 }
@@ -101,14 +130,16 @@ input {
 
 .card-elements h3 {
   margin: 20px 0;
+  color: var(--primary-text);
 }
 
 .card-elements p {
   margin-bottom: 50px;
+  color: var(--paragraph);
 }
 
 .inquiry {
-  margin: 150px 0 100px 0;
+  margin: 100px 0 100px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,7 +147,8 @@ input {
 }
 
 .inquiry p {
-  width: 500px;
+  width: 525px;
+  color: var(--paragraph);
 }
 
 .data {
@@ -124,7 +156,7 @@ input {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 175px;
+  margin-bottom: 150px;
 }
 
 .set1,
@@ -136,17 +168,30 @@ input {
   align-items: center;
 }
 
-.form-container .content {
+.form-container {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.form-container .content {
+  display: flex;
+  font-weight: 800;
+  align-items: center;
   justify-content: space-between;
-  height: 45vh;
+  height: 300px;
   background-color: #f7f9fc;
   border-radius: 25px;
-  padding: 0 50px;
+  padding: 0 25px;
+}
+
+.phone {
+  margin-right: 25px;
 }
 
 .form-container .holder {
+  color: var(--primary-text);
+  margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -156,9 +201,9 @@ input {
   width: 400px;
   margin-right: 10px;
   padding: 15px;
-  border: 1px solid black;
+  border: 1px solid var(--primary-border);
   border-radius: 7px;
-  box-shadow: 1px 1px 7px #ccc;
+  box-shadow: 1px 1px 7px #f6f6f6;
 }
 
 .form-container .right .form button {
@@ -166,12 +211,13 @@ input {
   padding: 15px 30px;
   border: 1px solid black;
   border-radius: 7px;
-  background-color: #1463ff;
+  background-color: var(--primary-button);
   color: #fff;
 }
 
 footer {
-  margin-top: 125px;
+  color: var(--paragraph);
+  margin-top: 100px;
   background-color: #f9f9f9;
   display: flex;
   align-items: center;
