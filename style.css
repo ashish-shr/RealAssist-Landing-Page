@@ -156,6 +156,10 @@ main > .hero {
   flex-direction: column;
 }
 
+.partners > h2 {
+  font-size: 2em;
+}
+
 .row {
   margin-top: 2em;
   width: 67%;
@@ -191,6 +195,7 @@ main > .hero {
 
 .join > .right > p {
   margin-top: 1.75em;
+  font-weight: 700;
   display: flex;
   align-items: center;
   justify-content: center;
