@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+header > nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 5px 5px 0px #eee;
+}
+
+main > .hero {
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero > .left > h3 {
+  width: 8em;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 7px;
+  background-color: #fcdc5c;
+  color: #000;
+}
+
+.hero > .left > h2 {
+  margin: 2em 0 0.5em 0;
+}
+
+.hero > .left > p {
+  margin: 1em 0 3em 0;
+}
+
+.hero > .right > img {
+  height: 30em;
+}
+
+.hero-email > input {
+  padding: 0.9em;
+  width: 34em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.hero-email > button {
+  padding: 0.9em 2.75em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background-color: #1463ff;
+  color: #fff;
+}
+
+.who {
+  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.who-container {
+  width: 1170px;
+}
+
+.who-container > h2 {
+  font-size: 2em;
+}
+.card-container {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-container > .card {
+  padding: 35px 25px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 1px 1px 5px 4px #efefef;
+  border-radius: 7px;
+  height: 400px;
+  width: 277px;
+}
+
+.card > img {
+  height: 60px;
+}
+
+.card > h3 {
+  margin: 25px 0;
+  font-size: 1.5em;
+}
+
+.card > p {
+  color: #626e99;
+  margin-bottom: 50px;
+}
+
+.card > button {
+  padding: 0.9em 2.75em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background-color: #1463ff;
+  color: #fff;
+}
+
+.what {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.what-container {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.what-container > h2 {
+  margin: 0.5em 0;
+  font-size: 2em;
+}
+
+.what-container p {
+  color: #626e99;
+  margin-bottom: 1em;
+}
+
+.what-container > button {
+  margin-top: 1.75em;
+  padding: 0.9em 2.75em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background-color: #1463ff;
+  color: #fff;
+}
+
+.partners {
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.row {
+  margin-top: 2em;
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.join {
+  margin-top: 10em;
+  height: 275px;
+  background-color: #f7f9fc;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.join-email > input {
+  padding: 0.9em;
+  width: 34em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+}
+
+.join-email > button {
+  margin-top: 1.75em;
+  padding: 0.9em 2.75em;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  background-color: #1463ff;
+  color: #fff;
+}
+
+.join > .right > p {
+  margin-top: 1.75em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
