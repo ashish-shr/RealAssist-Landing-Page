@@ -165,7 +165,7 @@ main > .hero {
 }
 
 .join {
-  margin-top: 10em;
+  margin: 8em;
   height: 275px;
   background-color: #f7f9fc;
   display: flex;
