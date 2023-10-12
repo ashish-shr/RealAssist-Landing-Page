@@ -88,7 +88,7 @@ main > .hero {
   border: 1px solid #f1f1f1;
   box-shadow: 1px 1px 5px 4px #efefef;
   border-radius: 7px;
-  height: 400px;
+  height: 390px;
   width: 277px;
 }
 
@@ -194,4 +194,18 @@ main > .hero {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 4em 10em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-container {
+  border-top: 1.75px solid #e1e1e1;
+  padding-top: 1.5em;
+  color: #626e99;
 }
