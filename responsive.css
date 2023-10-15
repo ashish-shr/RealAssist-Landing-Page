@@ -1,0 +1,174 @@
+@media screen and (max-width: 1200px) {
+  .hero {
+    padding: 0 7vw;
+  }
+  .hero .right img {
+    max-width: 100%;
+  }
+
+  .hero-email input {
+    margin-bottom: 1vw;
+  }
+
+  .who-container {
+    max-width: 85%;
+  }
+
+  .card-container .card {
+    width: 40vw;
+    margin-bottom: 5vw;
+  }
+
+  .join {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .join .left img {
+    width: 100%;
+  }
+
+  .join .right input {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero {
+    padding: 0 7vw;
+  }
+  .hero .right img {
+    max-width: 100%;
+  }
+
+  .hero-email input {
+    margin-bottom: 1vw;
+  }
+
+  .who-container {
+    max-width: 85%;
+  }
+
+  .card-container .card {
+    width: 40vw;
+    margin-bottom: 5vw;
+  }
+
+  .join {
+    max-width: 80%;
+  }
+
+  .join .left img {
+    width: 100%;
+  }
+
+  .join .right {
+    margin: 0 10px;
+  }
+
+  .join .right input {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-wrap: wrap-reverse;
+    margin-bottom: 10vh;
+  }
+
+  .hero .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero .right img {
+    max-width: 100%;
+  }
+
+  .hero-email input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1vw;
+    flex-wrap: wrap;
+  }
+
+  .who-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 78%;
+  }
+
+  .what {
+    margin-top: 5vh;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+
+  .card-container .card {
+    width: 78vw;
+    margin-bottom: 5vw;
+    text-align: center;
+  }
+
+  .partners {
+    width: 100%;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+  }
+
+  .join-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .join {
+    /* width: 80vw; */
+    height: 80vh;
+    margin-top: 100px;
+    flex-direction: column;
+  }
+
+  .join .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .join .left img {
+    width: 75%;
+  }
+
+  .join-email {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .join .right p {
+    margin-bottom: 25px;
+  }
+
+  .join .right input {
+    max-width: 70vw;
+  }
+}
