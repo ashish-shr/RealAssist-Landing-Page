@@ -15,6 +15,10 @@
   }
 
   .card-container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 40vw;
     margin-bottom: 5vw;
   }
@@ -52,6 +56,10 @@
   }
 
   .card-container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 40vw;
     margin-bottom: 5vw;
   }
@@ -117,6 +125,10 @@
   }
 
   .card-container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 78vw;
     margin-bottom: 5vw;
     text-align: center;
@@ -223,6 +235,10 @@
   }
 
   .card-container .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 78vw;
     margin-bottom: 5vw;
     text-align: center;
