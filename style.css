@@ -102,7 +102,8 @@ main > .hero {
   border: 1px solid #f1f1f1;
   box-shadow: 1px 1px 5px 4px #efefef;
   border-radius: 7px;
-  height: 440px;
+  /* height: 440px; */
+  height: auto;
   width: 280px;
 }
 
